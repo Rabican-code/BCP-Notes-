@@ -1,0 +1,62 @@
+body{
+    overflow-x: hidden;
+}
+.subject{
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.topic{
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#edit {
+    width: 10rem;
+    float: right;
+}
+
+.edit_link {
+
+    padding-top: 6px;
+}
+
+#search_button {
+
+}
+
+.add{
+    display: flex;
+    justify-content: start;
+}
+
+@media only screen and (min-width: 738px) {
+    #edit {
+        width: 10rem;
+        float: right;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    #edit{
+
+        float:right;
+
+    }
+
+    #search{
+        width: 23rem;
+    }
+    #search_button{
+        float: right;
+    }
+    .add{
+        display: flex;
+        justify-content: center;
+    }
+    #add{
+
+        width: 23rem;
+
+    }
+}
